@@ -1,4 +1,4 @@
 {
 
-  "run_list": ["apt", "build-essential", "berkshelf" ]
+  "run_list": ["apt", "build-essential", "php" ]
 }
