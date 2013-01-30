@@ -12,6 +12,6 @@
   "isPrivate" : false,
   "mainDetect" : [ {"files" : ["composer.json"]}],
   "supportDetect" : [],
-  "packageIgnore" : [],
+  "packageIgnore" : [ ".idea", ".git", ".gitignore", ".gitmodules"],
   "priority" : 2000
 }
