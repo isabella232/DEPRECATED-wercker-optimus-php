@@ -1,5 +1,11 @@
 {
-  "platformSteps" : [],
+  "platformSteps" : [
+    {"name" : "platform", "type" : "commands-step", "blocking" : true,
+      "options" : {
+        "commands" : [
+          "sudo chown ubuntu -R /build",
+          "cd $WERCKER_ROOT"
+        ]}}],
   "dependencySteps" : [
     {"name" : "cookbooks", "type" : "commands-step", "blocking" : false,
       "options" : {
