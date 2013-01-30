@@ -10,8 +10,8 @@
       ]
   	},
   "isPrivate" : false,
-  "mainDetect" : [ {"files" : ["optimus.json"]}],
+  "mainDetect" : [ {"files" : ["composer.json"]}],
   "supportDetect" : [],
   "packageIgnore" : [],
-  "priority" : 1000
+  "priority" : 2000
 }
