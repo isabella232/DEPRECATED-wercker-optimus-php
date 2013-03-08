@@ -1,17 +1,31 @@
 {
-	"name" : "php",
-	"version" : "0.0.2",
-	"stackInfo" :
-  	{
-      "stackVersions" : ["0.0.0"],
-      "defaultVersion" : "0.0.0",
-      "versionMapping": [
-          {"0" : "0.0.0"}
+  "name": "php",
+  "version": "0.0.2",
+  "stackInfo": {
+    "stackVersions": [
+      "0.0.0"
+    ],
+    "defaultVersion": "0.0.0",
+    "versionMapping": [
+      {
+        "0": "0.0.0"
+      }
+    ]
+  },
+  "isPrivate": false,
+  "mainDetect": [
+    {
+      "files": [
+        "composer.json"
       ]
-  	},
-  "isPrivate" : false,
-  "mainDetect" : [ {"files" : ["composer.json"]}],
-  "supportDetect" : [],
-  "packageIgnore" : [ ".idea", ".git", ".gitignore", ".gitmodules"],
-  "priority" : 2000
+    }
+  ],
+  "supportDetect": [],
+  "packageIgnore": [
+    ".idea",
+    ".git",
+    ".gitignore",
+    ".gitmodules"
+  ],
+  "priority": 2000
 }
