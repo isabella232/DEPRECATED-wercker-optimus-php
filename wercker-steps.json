@@ -1,11 +1,17 @@
 {
-  "platformSteps" : [
-    {"name" : "platform", "type" : "commands-step", "blocking" : true,
-      "options" : {
-        "commands" : [
+  "platformSteps": [
+    {
+      "name": "platform",
+      "type": "commands-step",
+      "blocking": true,
+      "options": {
+        "commands": [
           "sudo chown ubuntu -R /build",
           "cd $WERCKER_ROOT"
-        ]}}],
-  "dependencySteps" : [ ],
-  "testSteps" : [ ]
+        ]
+      }
+    }
+  ],
+  "dependencySteps": [],
+  "testSteps": []
 }
